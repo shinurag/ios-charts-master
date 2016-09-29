@@ -1,0 +1,773 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BalloonMarker"
+provides-nominal:
+- "C10ChartsDemo13BalloonMarker"
+provides-member:
+- ["C10ChartsDemo13BalloonMarker", ""]
+provides-dynamic-lookup:
+- "insets"
+- "color"
+- "font"
+- "draw"
+- "refreshContent"
+- "size"
+- "arrowSize"
+- "minimumSize"
+depends-top-level:
+- !private "StringLiteralType"
+- "CGPoint"
+- !private "CGContextFillPath"
+- !private "NSParagraphStyleAttributeName"
+- "CGContext"
+- !private "CGContextAddLineToPoint"
+- "ChartHighlight"
+- "NSMutableParagraphStyle"
+- !private "UIGraphicsPopContext"
+- "UIColor"
+- !private "CGContextRestoreGState"
+- !private "/"
+- !private "+"
+- !private "-"
+- "ChartMarker"
+- !private "UIGraphicsPushContext"
+- "UIEdgeInsets"
+- !private "CGContextBeginPath"
+- !private "=="
+- "NSString"
+- !private "CGRect"
+- !private "CGContextSaveGState"
+- !private "NSFontAttributeName"
+- !private "+="
+- !private "CGContextMoveToPoint"
+- "CGSize"
+- "BalloonMarker"
+- "UIFont"
+- !private "NSParagraphStyle"
+- !private "CGContextSetFillColorWithColor"
+- !private "-="
+- !private "??"
+- !private "CGSizeZero"
+- !private "max"
+- "String"
+- "AnyObject"
+- "ChartDataEntry"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "description"]
+- ["Ps9AnyObject", "AnyObject"]
+- !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "CGContextAddLineToPoint"]
+- !private ["Ps9AnyObject", "CGContextBeginPath"]
+- !private ["Ps9AnyObject", "CGContextFillPath"]
+- !private ["Ps9AnyObject", "CGContextMoveToPoint"]
+- !private ["Ps9AnyObject", "CGContextRestoreGState"]
+- !private ["Ps9AnyObject", "CGContextSaveGState"]
+- !private ["Ps9AnyObject", "CGContextSetFillColorWithColor"]
+- !private ["Ps9AnyObject", "CGRect"]
+- ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "CGSizeZero"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSParagraphStyle"]
+- !private ["Ps9AnyObject", "NSParagraphStyleAttributeName"]
+- ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "UIEdgeInsets"]
+- !private ["Ps9AnyObject", "UIGraphicsPopContext"]
+- !private ["Ps9AnyObject", "UIGraphicsPushContext"]
+- ["Ps9AnyObject", "_drawAttributes"]
+- ["Ps9AnyObject", "_labelSize"]
+- ["Ps9AnyObject", "_paragraphStyle"]
+- ["Ps9AnyObject", "_size"]
+- !private ["Ps9AnyObject", "alignment"]
+- ["Ps9AnyObject", "arrowSize"]
+- ["Ps9AnyObject", "color"]
+- !private ["Ps9AnyObject", "defaultParagraphStyle"]
+- ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "drawInRect"]
+- ["Ps9AnyObject", "font"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "insets"]
+- ["Ps9AnyObject", "labelns"]
+- !private ["Ps9AnyObject", "max"]
+- ["Ps9AnyObject", "minimumSize"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- ["Ps9AnyObject", "refreshContent"]
+- ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "sizeWithAttributes"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["C10ChartsDemo13BalloonMarker", "AnyObject"]
+- ["C10ChartsDemo13BalloonMarker", "CGContext"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextAddLineToPoint"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextBeginPath"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextFillPath"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextMoveToPoint"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextRestoreGState"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextSaveGState"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGContextSetFillColorWithColor"]
+- ["C10ChartsDemo13BalloonMarker", "CGPoint"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGRect"]
+- ["C10ChartsDemo13BalloonMarker", "CGSize"]
+- !private ["C10ChartsDemo13BalloonMarker", "CGSizeZero"]
+- ["C10ChartsDemo13BalloonMarker", "ChartDataEntry"]
+- ["C10ChartsDemo13BalloonMarker", "ChartHighlight"]
+- !private ["C10ChartsDemo13BalloonMarker", "NSFontAttributeName"]
+- ["C10ChartsDemo13BalloonMarker", "NSMutableParagraphStyle"]
+- !private ["C10ChartsDemo13BalloonMarker", "NSParagraphStyle"]
+- !private ["C10ChartsDemo13BalloonMarker", "NSParagraphStyleAttributeName"]
+- ["C10ChartsDemo13BalloonMarker", "NSString"]
+- ["C10ChartsDemo13BalloonMarker", "String"]
+- ["C10ChartsDemo13BalloonMarker", "UIColor"]
+- ["C10ChartsDemo13BalloonMarker", "UIEdgeInsets"]
+- ["C10ChartsDemo13BalloonMarker", "UIFont"]
+- !private ["C10ChartsDemo13BalloonMarker", "UIGraphicsPopContext"]
+- !private ["C10ChartsDemo13BalloonMarker", "UIGraphicsPushContext"]
+- !private ["C10ChartsDemo13BalloonMarker", "_drawAttributes"]
+- !private ["C10ChartsDemo13BalloonMarker", "_labelSize"]
+- !private ["C10ChartsDemo13BalloonMarker", "_paragraphStyle"]
+- !private ["C10ChartsDemo13BalloonMarker", "_size"]
+- ["C10ChartsDemo13BalloonMarker", "arrowSize"]
+- ["C10ChartsDemo13BalloonMarker", "color"]
+- ["C10ChartsDemo13BalloonMarker", "deinit"]
+- ["C10ChartsDemo13BalloonMarker", "draw"]
+- ["C10ChartsDemo13BalloonMarker", "font"]
+- ["C10ChartsDemo13BalloonMarker", "init"]
+- ["C10ChartsDemo13BalloonMarker", "insets"]
+- !private ["C10ChartsDemo13BalloonMarker", "labelns"]
+- !private ["C10ChartsDemo13BalloonMarker", "max"]
+- ["C10ChartsDemo13BalloonMarker", "minimumSize"]
+- ["C10ChartsDemo13BalloonMarker", "refreshContent"]
+- ["C10ChartsDemo13BalloonMarker", "size"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "width"]
+- ["Ps11CVarArgType", "AnyObject"]
+- !private ["Ps11CVarArgType", "CGColor"]
+- !private ["Ps11CVarArgType", "CGContextAddLineToPoint"]
+- !private ["Ps11CVarArgType", "CGContextBeginPath"]
+- !private ["Ps11CVarArgType", "CGContextFillPath"]
+- !private ["Ps11CVarArgType", "CGContextMoveToPoint"]
+- !private ["Ps11CVarArgType", "CGContextRestoreGState"]
+- !private ["Ps11CVarArgType", "CGContextSaveGState"]
+- !private ["Ps11CVarArgType", "CGContextSetFillColorWithColor"]
+- !private ["Ps11CVarArgType", "CGRect"]
+- ["Ps11CVarArgType", "CGSize"]
+- !private ["Ps11CVarArgType", "CGSizeZero"]
+- !private ["Ps11CVarArgType", "NSFontAttributeName"]
+- !private ["Ps11CVarArgType", "NSParagraphStyle"]
+- !private ["Ps11CVarArgType", "NSParagraphStyleAttributeName"]
+- ["Ps11CVarArgType", "String"]
+- ["Ps11CVarArgType", "UIEdgeInsets"]
+- !private ["Ps11CVarArgType", "UIGraphicsPopContext"]
+- !private ["Ps11CVarArgType", "UIGraphicsPushContext"]
+- ["Ps11CVarArgType", "_drawAttributes"]
+- ["Ps11CVarArgType", "_labelSize"]
+- ["Ps11CVarArgType", "_paragraphStyle"]
+- ["Ps11CVarArgType", "_size"]
+- !private ["Ps11CVarArgType", "alignment"]
+- ["Ps11CVarArgType", "arrowSize"]
+- ["Ps11CVarArgType", "color"]
+- !private ["Ps11CVarArgType", "defaultParagraphStyle"]
+- !private ["Ps11CVarArgType", "description"]
+- ["Ps11CVarArgType", "draw"]
+- !private ["Ps11CVarArgType", "drawInRect"]
+- ["Ps11CVarArgType", "font"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "insets"]
+- ["Ps11CVarArgType", "labelns"]
+- !private ["Ps11CVarArgType", "max"]
+- ["Ps11CVarArgType", "minimumSize"]
+- !private ["Ps11CVarArgType", "mutableCopy"]
+- ["Ps11CVarArgType", "refreshContent"]
+- ["Ps11CVarArgType", "size"]
+- !private ["Ps11CVarArgType", "sizeWithAttributes"]
+- !private ["Ps11CVarArgType", "value"]
+- ["Ps11CVarArgType", ""]
+- ["C6Charts18ChartComponentBase", "AnyObject"]
+- ["C6Charts18ChartComponentBase", "CGContext"]
+- !private ["C6Charts18ChartComponentBase", "CGContextAddLineToPoint"]
+- !private ["C6Charts18ChartComponentBase", "CGContextBeginPath"]
+- !private ["C6Charts18ChartComponentBase", "CGContextFillPath"]
+- !private ["C6Charts18ChartComponentBase", "CGContextMoveToPoint"]
+- !private ["C6Charts18ChartComponentBase", "CGContextRestoreGState"]
+- !private ["C6Charts18ChartComponentBase", "CGContextSaveGState"]
+- !private ["C6Charts18ChartComponentBase", "CGContextSetFillColorWithColor"]
+- ["C6Charts18ChartComponentBase", "CGPoint"]
+- !private ["C6Charts18ChartComponentBase", "CGRect"]
+- ["C6Charts18ChartComponentBase", "CGSize"]
+- !private ["C6Charts18ChartComponentBase", "CGSizeZero"]
+- ["C6Charts18ChartComponentBase", "ChartDataEntry"]
+- ["C6Charts18ChartComponentBase", "ChartHighlight"]
+- !private ["C6Charts18ChartComponentBase", "NSFontAttributeName"]
+- ["C6Charts18ChartComponentBase", "NSMutableParagraphStyle"]
+- !private ["C6Charts18ChartComponentBase", "NSParagraphStyle"]
+- !private ["C6Charts18ChartComponentBase", "NSParagraphStyleAttributeName"]
+- ["C6Charts18ChartComponentBase", "NSString"]
+- ["C6Charts18ChartComponentBase", "String"]
+- ["C6Charts18ChartComponentBase", "UIColor"]
+- ["C6Charts18ChartComponentBase", "UIEdgeInsets"]
+- ["C6Charts18ChartComponentBase", "UIFont"]
+- !private ["C6Charts18ChartComponentBase", "UIGraphicsPopContext"]
+- !private ["C6Charts18ChartComponentBase", "UIGraphicsPushContext"]
+- ["C6Charts18ChartComponentBase", "_drawAttributes"]
+- ["C6Charts18ChartComponentBase", "_labelSize"]
+- ["C6Charts18ChartComponentBase", "_paragraphStyle"]
+- ["C6Charts18ChartComponentBase", "_size"]
+- ["C6Charts18ChartComponentBase", "arrowSize"]
+- ["C6Charts18ChartComponentBase", "color"]
+- ["C6Charts18ChartComponentBase", "draw"]
+- ["C6Charts18ChartComponentBase", "font"]
+- ["C6Charts18ChartComponentBase", "init"]
+- ["C6Charts18ChartComponentBase", "insets"]
+- ["C6Charts18ChartComponentBase", "labelns"]
+- !private ["C6Charts18ChartComponentBase", "max"]
+- ["C6Charts18ChartComponentBase", "minimumSize"]
+- ["C6Charts18ChartComponentBase", "refreshContent"]
+- ["C6Charts18ChartComponentBase", "size"]
+- !private ["C6Charts14ChartDataEntry", "value"]
+- ["C6Charts11ChartMarker", "AnyObject"]
+- ["C6Charts11ChartMarker", "CGContext"]
+- !private ["C6Charts11ChartMarker", "CGContextAddLineToPoint"]
+- !private ["C6Charts11ChartMarker", "CGContextBeginPath"]
+- !private ["C6Charts11ChartMarker", "CGContextFillPath"]
+- !private ["C6Charts11ChartMarker", "CGContextMoveToPoint"]
+- !private ["C6Charts11ChartMarker", "CGContextRestoreGState"]
+- !private ["C6Charts11ChartMarker", "CGContextSaveGState"]
+- !private ["C6Charts11ChartMarker", "CGContextSetFillColorWithColor"]
+- ["C6Charts11ChartMarker", "CGPoint"]
+- !private ["C6Charts11ChartMarker", "CGRect"]
+- ["C6Charts11ChartMarker", "CGSize"]
+- !private ["C6Charts11ChartMarker", "CGSizeZero"]
+- ["C6Charts11ChartMarker", "ChartDataEntry"]
+- ["C6Charts11ChartMarker", "ChartHighlight"]
+- !private ["C6Charts11ChartMarker", "NSFontAttributeName"]
+- ["C6Charts11ChartMarker", "NSMutableParagraphStyle"]
+- !private ["C6Charts11ChartMarker", "NSParagraphStyle"]
+- !private ["C6Charts11ChartMarker", "NSParagraphStyleAttributeName"]
+- ["C6Charts11ChartMarker", "NSString"]
+- ["C6Charts11ChartMarker", "String"]
+- ["C6Charts11ChartMarker", "UIColor"]
+- ["C6Charts11ChartMarker", "UIEdgeInsets"]
+- ["C6Charts11ChartMarker", "UIFont"]
+- !private ["C6Charts11ChartMarker", "UIGraphicsPopContext"]
+- !private ["C6Charts11ChartMarker", "UIGraphicsPushContext"]
+- ["C6Charts11ChartMarker", "_drawAttributes"]
+- ["C6Charts11ChartMarker", "_labelSize"]
+- ["C6Charts11ChartMarker", "_paragraphStyle"]
+- ["C6Charts11ChartMarker", "_size"]
+- ["C6Charts11ChartMarker", "arrowSize"]
+- ["C6Charts11ChartMarker", "color"]
+- ["C6Charts11ChartMarker", "draw"]
+- ["C6Charts11ChartMarker", "font"]
+- ["C6Charts11ChartMarker", "init"]
+- ["C6Charts11ChartMarker", "insets"]
+- ["C6Charts11ChartMarker", "labelns"]
+- !private ["C6Charts11ChartMarker", "max"]
+- ["C6Charts11ChartMarker", "minimumSize"]
+- ["C6Charts11ChartMarker", "refreshContent"]
+- ["C6Charts11ChartMarker", "size"]
+- ["C6Charts11ChartMarker", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "removeAll"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "description"]
+- ["Ps28CustomDebugStringConvertible", "AnyObject"]
+- !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextAddLineToPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextBeginPath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextFillPath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextMoveToPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextRestoreGState"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextSaveGState"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextSetFillColorWithColor"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSizeZero"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSParagraphStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "NSParagraphStyleAttributeName"]
+- ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "UIEdgeInsets"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsPopContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsPushContext"]
+- ["Ps28CustomDebugStringConvertible", "_drawAttributes"]
+- ["Ps28CustomDebugStringConvertible", "_labelSize"]
+- ["Ps28CustomDebugStringConvertible", "_paragraphStyle"]
+- ["Ps28CustomDebugStringConvertible", "_size"]
+- !private ["Ps28CustomDebugStringConvertible", "alignment"]
+- ["Ps28CustomDebugStringConvertible", "arrowSize"]
+- ["Ps28CustomDebugStringConvertible", "color"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultParagraphStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
+- ["Ps28CustomDebugStringConvertible", "draw"]
+- !private ["Ps28CustomDebugStringConvertible", "drawInRect"]
+- ["Ps28CustomDebugStringConvertible", "font"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "insets"]
+- ["Ps28CustomDebugStringConvertible", "labelns"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- ["Ps28CustomDebugStringConvertible", "minimumSize"]
+- !private ["Ps28CustomDebugStringConvertible", "mutableCopy"]
+- ["Ps28CustomDebugStringConvertible", "refreshContent"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "sizeWithAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "AnyObject"]
+- !private ["Ps23CustomStringConvertible", "CGColor"]
+- !private ["Ps23CustomStringConvertible", "CGContextAddLineToPoint"]
+- !private ["Ps23CustomStringConvertible", "CGContextBeginPath"]
+- !private ["Ps23CustomStringConvertible", "CGContextFillPath"]
+- !private ["Ps23CustomStringConvertible", "CGContextMoveToPoint"]
+- !private ["Ps23CustomStringConvertible", "CGContextRestoreGState"]
+- !private ["Ps23CustomStringConvertible", "CGContextSaveGState"]
+- !private ["Ps23CustomStringConvertible", "CGContextSetFillColorWithColor"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "CGSizeZero"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSParagraphStyle"]
+- !private ["Ps23CustomStringConvertible", "NSParagraphStyleAttributeName"]
+- ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "UIEdgeInsets"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsPopContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsPushContext"]
+- ["Ps23CustomStringConvertible", "_drawAttributes"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_labelSize"]
+- ["Ps23CustomStringConvertible", "_paragraphStyle"]
+- ["Ps23CustomStringConvertible", "_size"]
+- !private ["Ps23CustomStringConvertible", "alignment"]
+- ["Ps23CustomStringConvertible", "arrowSize"]
+- ["Ps23CustomStringConvertible", "color"]
+- !private ["Ps23CustomStringConvertible", "defaultParagraphStyle"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "draw"]
+- !private ["Ps23CustomStringConvertible", "drawInRect"]
+- ["Ps23CustomStringConvertible", "font"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "insets"]
+- ["Ps23CustomStringConvertible", "labelns"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- ["Ps23CustomStringConvertible", "minimumSize"]
+- !private ["Ps23CustomStringConvertible", "mutableCopy"]
+- ["Ps23CustomStringConvertible", "refreshContent"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "sizeWithAttributes"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "removeAll"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "removeAll"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "description"]
+- ["Ps9Equatable", "AnyObject"]
+- !private ["Ps9Equatable", "CGColor"]
+- !private ["Ps9Equatable", "CGContextAddLineToPoint"]
+- !private ["Ps9Equatable", "CGContextBeginPath"]
+- !private ["Ps9Equatable", "CGContextFillPath"]
+- !private ["Ps9Equatable", "CGContextMoveToPoint"]
+- !private ["Ps9Equatable", "CGContextRestoreGState"]
+- !private ["Ps9Equatable", "CGContextSaveGState"]
+- !private ["Ps9Equatable", "CGContextSetFillColorWithColor"]
+- !private ["Ps9Equatable", "CGRect"]
+- ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "CGSizeZero"]
+- !private ["Ps9Equatable", "Center"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSParagraphStyle"]
+- !private ["Ps9Equatable", "NSParagraphStyleAttributeName"]
+- ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "UIEdgeInsets"]
+- !private ["Ps9Equatable", "UIGraphicsPopContext"]
+- !private ["Ps9Equatable", "UIGraphicsPushContext"]
+- ["Ps9Equatable", "_drawAttributes"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_labelSize"]
+- ["Ps9Equatable", "_paragraphStyle"]
+- ["Ps9Equatable", "_size"]
+- !private ["Ps9Equatable", "alignment"]
+- ["Ps9Equatable", "arrowSize"]
+- !private ["Ps9Equatable", "bottom"]
+- ["Ps9Equatable", "color"]
+- !private ["Ps9Equatable", "defaultParagraphStyle"]
+- !private ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "draw"]
+- !private ["Ps9Equatable", "drawInRect"]
+- ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insets"]
+- ["Ps9Equatable", "labelns"]
+- !private ["Ps9Equatable", "left"]
+- !private ["Ps9Equatable", "max"]
+- ["Ps9Equatable", "minimumSize"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- !private ["Ps9Equatable", "origin"]
+- ["Ps9Equatable", "refreshContent"]
+- !private ["Ps9Equatable", "right"]
+- ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "sizeWithAttributes"]
+- !private ["Ps9Equatable", "top"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "drawInRect"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "sizeWithAttributes"]
+- !private ["Ps23FloatLiteralConvertible", "description"]
+- !private ["Ps17FloatingPointType", "description"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "AnyObject"]
+- !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "CGContextAddLineToPoint"]
+- !private ["Ps8Hashable", "CGContextBeginPath"]
+- !private ["Ps8Hashable", "CGContextFillPath"]
+- !private ["Ps8Hashable", "CGContextMoveToPoint"]
+- !private ["Ps8Hashable", "CGContextRestoreGState"]
+- !private ["Ps8Hashable", "CGContextSaveGState"]
+- !private ["Ps8Hashable", "CGContextSetFillColorWithColor"]
+- !private ["Ps8Hashable", "CGRect"]
+- ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "CGSizeZero"]
+- !private ["Ps8Hashable", "Center"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSParagraphStyle"]
+- !private ["Ps8Hashable", "NSParagraphStyleAttributeName"]
+- ["Ps8Hashable", "String"]
+- ["Ps8Hashable", "UIEdgeInsets"]
+- !private ["Ps8Hashable", "UIGraphicsPopContext"]
+- !private ["Ps8Hashable", "UIGraphicsPushContext"]
+- ["Ps8Hashable", "_drawAttributes"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_labelSize"]
+- ["Ps8Hashable", "_paragraphStyle"]
+- ["Ps8Hashable", "_size"]
+- !private ["Ps8Hashable", "alignment"]
+- ["Ps8Hashable", "arrowSize"]
+- ["Ps8Hashable", "color"]
+- !private ["Ps8Hashable", "defaultParagraphStyle"]
+- !private ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "draw"]
+- !private ["Ps8Hashable", "drawInRect"]
+- ["Ps8Hashable", "font"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "insets"]
+- ["Ps8Hashable", "labelns"]
+- !private ["Ps8Hashable", "max"]
+- ["Ps8Hashable", "minimumSize"]
+- !private ["Ps8Hashable", "mutableCopy"]
+- ["Ps8Hashable", "refreshContent"]
+- ["Ps8Hashable", "size"]
+- !private ["Ps8Hashable", "sizeWithAttributes"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Ps25IntegerLiteralConvertible", "description"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "alignment"]
+- !private ["PSo8NSCoding", "defaultParagraphStyle"]
+- !private ["PSo8NSCoding", "drawInRect"]
+- !private ["PSo8NSCoding", "mutableCopy"]
+- !private ["PSo8NSCoding", "sizeWithAttributes"]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "alignment"]
+- !private ["PSo9NSCopying", "defaultParagraphStyle"]
+- !private ["PSo9NSCopying", "drawInRect"]
+- !private ["PSo9NSCopying", "mutableCopy"]
+- !private ["PSo9NSCopying", "sizeWithAttributes"]
+- !private ["PSo16NSMutableCopying", "alignment"]
+- !private ["PSo16NSMutableCopying", "defaultParagraphStyle"]
+- !private ["PSo16NSMutableCopying", "drawInRect"]
+- !private ["PSo16NSMutableCopying", "mutableCopy"]
+- !private ["PSo16NSMutableCopying", "sizeWithAttributes"]
+- !private ["CSo23NSMutableParagraphStyle", "alignment"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGContext"]
+- !private ["CSo8NSObject", "CGContextAddLineToPoint"]
+- !private ["CSo8NSObject", "CGContextBeginPath"]
+- !private ["CSo8NSObject", "CGContextFillPath"]
+- !private ["CSo8NSObject", "CGContextMoveToPoint"]
+- !private ["CSo8NSObject", "CGContextRestoreGState"]
+- !private ["CSo8NSObject", "CGContextSaveGState"]
+- !private ["CSo8NSObject", "CGContextSetFillColorWithColor"]
+- ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "CGSizeZero"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "ChartHighlight"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- ["CSo8NSObject", "NSMutableParagraphStyle"]
+- !private ["CSo8NSObject", "NSParagraphStyle"]
+- !private ["CSo8NSObject", "NSParagraphStyleAttributeName"]
+- ["CSo8NSObject", "NSString"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIEdgeInsets"]
+- ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "UIGraphicsPopContext"]
+- !private ["CSo8NSObject", "UIGraphicsPushContext"]
+- ["CSo8NSObject", "_drawAttributes"]
+- ["CSo8NSObject", "_labelSize"]
+- ["CSo8NSObject", "_paragraphStyle"]
+- ["CSo8NSObject", "_size"]
+- !private ["CSo8NSObject", "alignment"]
+- ["CSo8NSObject", "arrowSize"]
+- ["CSo8NSObject", "color"]
+- !private ["CSo8NSObject", "defaultParagraphStyle"]
+- ["CSo8NSObject", "draw"]
+- !private ["CSo8NSObject", "drawInRect"]
+- ["CSo8NSObject", "font"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "insets"]
+- ["CSo8NSObject", "labelns"]
+- !private ["CSo8NSObject", "max"]
+- ["CSo8NSObject", "minimumSize"]
+- !private ["CSo8NSObject", "mutableCopy"]
+- ["CSo8NSObject", "refreshContent"]
+- ["CSo8NSObject", "size"]
+- !private ["CSo8NSObject", "sizeWithAttributes"]
+- !private ["CSo8NSObject", "value"]
+- ["PSo16NSObjectProtocol", "AnyObject"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGContextAddLineToPoint"]
+- !private ["PSo16NSObjectProtocol", "CGContextBeginPath"]
+- !private ["PSo16NSObjectProtocol", "CGContextFillPath"]
+- !private ["PSo16NSObjectProtocol", "CGContextMoveToPoint"]
+- !private ["PSo16NSObjectProtocol", "CGContextRestoreGState"]
+- !private ["PSo16NSObjectProtocol", "CGContextSaveGState"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetFillColorWithColor"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "CGSizeZero"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSParagraphStyle"]
+- !private ["PSo16NSObjectProtocol", "NSParagraphStyleAttributeName"]
+- ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "UIEdgeInsets"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsPopContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsPushContext"]
+- ["PSo16NSObjectProtocol", "_drawAttributes"]
+- ["PSo16NSObjectProtocol", "_labelSize"]
+- ["PSo16NSObjectProtocol", "_paragraphStyle"]
+- ["PSo16NSObjectProtocol", "_size"]
+- !private ["PSo16NSObjectProtocol", "alignment"]
+- ["PSo16NSObjectProtocol", "arrowSize"]
+- ["PSo16NSObjectProtocol", "color"]
+- !private ["PSo16NSObjectProtocol", "defaultParagraphStyle"]
+- ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "drawInRect"]
+- ["PSo16NSObjectProtocol", "font"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "insets"]
+- ["PSo16NSObjectProtocol", "labelns"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- ["PSo16NSObjectProtocol", "minimumSize"]
+- !private ["PSo16NSObjectProtocol", "mutableCopy"]
+- ["PSo16NSObjectProtocol", "refreshContent"]
+- ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo16NSObjectProtocol", "sizeWithAttributes"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSParagraphStyle", "alignment"]
+- !private ["CSo16NSParagraphStyle", "defaultParagraphStyle"]
+- !private ["CSo16NSParagraphStyle", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "alignment"]
+- !private ["PSo14NSSecureCoding", "defaultParagraphStyle"]
+- !private ["PSo14NSSecureCoding", "drawInRect"]
+- !private ["PSo14NSSecureCoding", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "sizeWithAttributes"]
+- !private ["CSo8NSString", "drawInRect"]
+- !private ["CSo8NSString", "sizeWithAttributes"]
+- !private ["OSC15NSTextAlignment", "Center"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Center"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "removeAll"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps16SignedNumberType", "description"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "description"]
+- !private ["SS", "deinit"]
+- !private ["Ps24StringLiteralConvertible", "drawInRect"]
+- !private ["Ps24StringLiteralConvertible", "sizeWithAttributes"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["VSC12UIEdgeInsets", "bottom"]
+- ["VSC12UIEdgeInsets", "init"]
+- !private ["VSC12UIEdgeInsets", "left"]
+- !private ["VSC12UIEdgeInsets", "right"]
+- !private ["VSC12UIEdgeInsets", "top"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "drawInRect"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "sizeWithAttributes"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "description"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "description"]
+- !private ["Ps19_CVarArgAlignedType", "description"]
+- !private ["Ps22_CVarArgPassedAsDouble", "description"]
+- !private ["Ps24_ColorLiteralConvertible", "CGColor"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "description"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "description"]
+- !private ["Ps12_Reflectable", "drawInRect"]
+- !private ["Ps12_Reflectable", "height"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "origin"]
+- !private ["Ps12_Reflectable", "removeAll"]
+- !private ["Ps12_Reflectable", "size"]
+- !private ["Ps12_Reflectable", "sizeWithAttributes"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "C10ChartsDemo13BalloonMarker"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps11CVarArgType"
+- "C6Charts18ChartComponentBase"
+- !private "C6Charts14ChartDataEntry"
+- "C6Charts11ChartMarker"
+- "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo23NSMutableParagraphStyle"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSParagraphStyle"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "OSC15NSTextAlignment"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- "Ps12SequenceType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps24StringLiteralConvertible"
+- !private "CSo7UIColor"
+- "VSC12UIEdgeInsets"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/Supporting Files/ChartsDemo-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMSchema.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMResults.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMRealm.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMConstants.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMProperty.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMObject.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMMigration.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMDefines.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMCollection.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/RLMArray.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Headers/Realm.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/../Charts/ThirdParty/Realm/ios/Realm.framework/Modules/module.modulemap"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+interface-hash: "fe70e0d5b160997f37c8601498f2885a"

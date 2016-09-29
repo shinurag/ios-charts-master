@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "cade139f23d0c515c24f12602334141a"
+build_time: [528380615, 699038000]
+inputs:
+  "/Users/codexmind/Documents/Projects/iOS/MISC/ios-charts-master/ChartsDemo/Classes/Components/BalloonMarker.swift": [507608562, 0]
